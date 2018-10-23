@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework</title>
+        <link rel="stylesheet" href="lesson6.css" >
+    </head>
+    <body>
+        <h1>FORMS</h1>
+            <form>
+                <label for="firstname">FIrst Name*</label>
+                <input type="text" name="firstname" id="firstname">
+                
+                <label for="lastname">Last Name*</label>
+                <input type="text" name="lastname" id="firstname">
+                
+                <label for="email">Email*</label>
+                <input type="text" name="email" id="email">
+
+                <label for="Password">Password*</label>
+                <input type="password" name="password" id="password ">
+                
+                <label for="country">Country*</label>
+                <select name="region" id="country">
+                        <option value="default">Select Country</option>
+                        <option value="Moldova">Moldova</option>
+                        <option value="USA">USA</option>
+                </select>
+                <fieldset>
+                    <legend>Please choose your gender</legend>
+                    
+                    <div>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="male">
+                    </div>
+                    
+                    <div>
+                    <label for="Female">Female</label>
+                    <input type="radio" name="gender" value="Female">
+                    </div>   
+                    
+                    <div>
+                    <label for="undefiened">undefiened</label>
+                    <input type="radio" name="gender" value="undefiened" >
+                    </div>
+                
+                </fieldset>
+
+                <textarea name="comments"id="comments">
+                    Shut the fuck up
+                </textarea>
+                <input type="submit" value="Create Account">
+
+
+            </form>
+    </body>
+</html>
